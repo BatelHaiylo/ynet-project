@@ -1,0 +1,102 @@
+body {
+    direction: rtl;
+    margin: 0vw;
+}
+#logoheader {
+    width: 100vw;
+    height: 24.5px;
+    background-color: #ffffff;
+    z-index: 0;
+}
+hr {
+    height: 5px;
+    border-width:0;
+    margin-top: 1em;
+    margin-bottom: 0em;
+    display: block;
+}
+#logo {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 176px;
+    height: 75px;
+}
+#spacing {
+    margin-top: 3em;
+}
+.Miniarticals {
+    height: 15vh;
+    background-color: #f3f8f9;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.miniA {
+    border-left: dotted #000;
+    padding-left: 5%;
+}
+.miniAb {
+    color: #DE1A1A;
+}
+
+tr{
+    background-color: #DE1A1A;
+    color: white;
+    width: 90vw;
+    padding-right: 100px;
+    padding-left: 30px;
+    display: block;
+}
+th {
+    padding-right: 25px;
+    padding-left: 25px;
+    align-content: center;
+}
+#firstArticleImg {
+    width: 50%;
+    height: 40%;
+    margin-left: 3%;
+    float: left;
+    
+}
+.firstArticle {
+    float: right;
+    width: 50%;
+    height: 40%;
+    margin-right: 3%; 
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    text-align: right;
+    position: absolute;
+    top: 230px;
+    padding-left: 20px;
+    padding-top: 5%;
+}
+h1 {
+    font-size: 35px;
+}
+p {
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-size: 20px;
+}
+#addBoxDiv {
+    display: inline;
+    margin: 30% 3%;
+    display: inline-block;
+    height: 500px;
+}
+#add1 {
+    clear: both;
+    height: 500px;
+}
+.add2 {
+    clear: both;
+    margin-top:0;
+    padding: 0 3px 0 3px;
+    float: left;
+    width: 300px;
+    height: 250px;
+}
+.miniP {
+    color: #DE1A1A;
+}
