@@ -25,6 +25,9 @@ hr {
 #spacing {
     margin-top: 3em;
 }
+.firstSection {
+    height: 400px;
+}
 .Miniarticals {
     height: 15vh;
     background-color: #f3f8f9;
@@ -79,24 +82,56 @@ p {
     font-family: 'Noto Sans Hebrew', sans-serif;
     font-size: 20px;
 }
-#addBoxDiv {
-    display: inline;
-    margin: 30% 3%;
-    display: inline-block;
+.secondSection {
     height: 500px;
+}
+#addBox {
+    margin: 15% 3%;
+    height: 500px;
+    float: right;
+}
+.img1 {
+    display: inline-block;
 }
 #add1 {
-    clear: both;
-    height: 500px;
+    width: 300px;
+    height: 510px;
+    padding: 0 0 0 2% ;
+}
+.img2 {
+    display: inline-block;
+    width: 300px;
 }
 .add2 {
-    clear: both;
-    margin-top:0;
-    padding: 0 3px 0 3px;
-    float: left;
     width: 300px;
     height: 250px;
+    padding: 0.5% 0 1% 0 ;
 }
-.miniP {
-    color: #DE1A1A;
+
+.Sidearticals {
+    width: 810px;
+    float: left;
+    margin: 5% 3%;
+}
+.miniArt {
+    display: inline-block;
+    flex-direction: row-reverse;
+    background-color: brown;
+    width: 810px;
+    height: 113px;
+    margin: 0.5% 0;
+}
+.mininews {
+    display: inline-block;
+    color: azure;
+    font-size: 15px;
+    flex-direction: row-reverse;
+    height: 113px;
+}
+.articIMG {
+    width: 200px;
+    height: 113px;
+}
+h2 {
+    font-size: 19px;
 }
